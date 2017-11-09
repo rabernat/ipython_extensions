@@ -19,7 +19,7 @@ define( function () {
     var token_dialog = function () {
         var dialog = $('<div/>').append(
             $("<p/>")
-                .html('Enter a <a href="https://github.com/settings/applications" target="_blank">GitHub OAuth token</a>:')
+                .html('Enter a <a href="https://github.com/settings/tokens" target="_blank">GitHub Personal Access token</a>:')
         ).append(
             $("<br/>")
         ).append(
